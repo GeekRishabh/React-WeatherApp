@@ -6,6 +6,7 @@
 		"d3": "^5.5.0",
 		"lodash": "^4.17.10",
 		"react": "^16.4.1",
+		"react-d3-basic": "^1.6.11",
 		"react-dom": "^16.4.1",
 		"react-geo-location": "0.0.0",
 		"react-geolocated": "^2.4.0",

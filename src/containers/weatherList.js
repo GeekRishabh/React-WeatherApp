@@ -14,7 +14,7 @@ class WeatherList extends Component {
 		return (
 			<tr key={name}>
 				<td>
-					<Map lon={lon} lat={lat} />
+					<Map lat={lat} lon={lon} />
 				</td>
 				<td>
 					<Chart data={temps} color="orange" units="K" />
@@ -29,7 +29,7 @@ class WeatherList extends Component {
 		);
 	}
 	render() {
-		console.log(this.props.weather, ' here inrender');
+		console.log(this.props.weather, ' here in render');
 		return (
 			<table className="table table-hover">
 				<thead>
